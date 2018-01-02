@@ -20,4 +20,8 @@ int main(){
 	double w[5]={5,3,4,4,2};
 	double mc[5];
 	double ha1,ha2,ha3;
+	
+	cout.setf(ios::fixed);
+	cout.setf(ios::showpoint);
+	cout.precision(4);
 }
