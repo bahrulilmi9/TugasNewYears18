@@ -49,4 +49,23 @@ int main(){
 	Ra3c[3] = (a3c[3]/mc[3]);
 	Ra3c[4] = (a3c[4]/mc[4]);
 
+	// MATRIKS R * W
+	RWa1c[0] = Ra1c[0]*w[0];
+	RWa1c[1] = Ra1c[1]*w[1];
+	RWa1c[2] = Ra1c[2]*w[2];
+	RWa1c[3] = Ra1c[3]*w[3];
+	RWa1c[4] = Ra1c[4]*w[4];
+
+	RWa2c[0] = Ra2c[0]*w[0];
+	RWa2c[1] = Ra2c[1]*w[1];
+	RWa2c[2] = Ra2c[2]*w[2];
+	RWa2c[3] = Ra2c[3]*w[3];
+	RWa2c[4] = Ra2c[4]*w[4];
+	
+	RWa3c[0] = Ra3c[0]*w[0];
+	RWa3c[1] = Ra3c[1]*w[1];
+	RWa3c[2] = Ra3c[2]*w[2];
+	RWa3c[3] = Ra3c[3]*w[3];
+	RWa3c[4] = Ra3c[4]*w[4];
+
 }
